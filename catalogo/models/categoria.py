@@ -12,4 +12,4 @@ class Categoria(models.Model):
 
 
     def __str__(self):
-        return f"id: {self.id} Nombre: {self.nombre} Descripcion: {self.descripcion} Fecha de creación: {self.created_at} Fecha de actualización: {self.updated_at}"
+        return self.nombre
